@@ -1,29 +1,15 @@
 # le0c
-1. [github](https://github.com/techtestleo/remark-site)
-2. [linkedin](https://www.linkedin.com/in/leo-coleman-738a6913b/)
-3. [cv](https://drive.google.com/open?id=abc123)
----
-### Table of Contents
 
+### about me
 
-## about me
-
-Details about me can go here. A broad outline perhaps.
-
-## [tech](/tech)
-
-Musings on technology.
-
-## [writing](/writing)
-
-Short stories.
-
-## [games](/games)
-
-Browser games.
-
-## disclaimer
-> ✎ _All opinions are entirely my own.[^1]_
+I'm a web developer primarily using React, Typescript and Node.js. I've worked on single page applications, websites, API's and test suites professionally, and in my spare time have worked with the JAM stack, [unifiedjs](https://unifiedjs.com/) and some c++ via [openFrameworks](https://openframeworks.cc/).
 
 ---
-[^1]: **(c) 2020 Leo C.**
+
+### about this site
+
+This site was built using a custom static site generator I built in 2020 using the unified ecosystem. I did this as an exercise to learn more about site generation, and because I found the unified ecosystem fascinating, both in concept and to work with. The result was [remark-site](https://github.com/techtestleo/remark-site).
+
+In 2021 I forked and repurposed the repo to become the static site builder for my gh-pages site. I also wanted to explore the excellent [css tutorials by Josh Comeau](https://www.joshwcomeau.com/tutorials/) and implement them on my own website (thanks Josh!).
+
+---

@@ -14,7 +14,7 @@ const error = chalk.red;
  * Console log an item in the style of:
  * 'r': reading
  * 'w': writing
- * 's': uccess
+ * 's': success
  * @param {any} item 
  * @param {string} options 
  */

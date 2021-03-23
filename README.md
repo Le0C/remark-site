@@ -1,31 +1,25 @@
-# Blog
+# unified site builder
 
-A static html blog powered by unififed & sass.
+unified processor to build html & css from markdown & scss.
 
-## Installation
+# usage
 
-0. Install `hello-world-nginx` container
-1. git clone this repo
-2. npm install
-3. npm run build
-4. Set /website_files volume in nginx container to /site/out
-5. npm run watch
-6. Start nginx container
-7. Refresh page to see updates
+The program will look in the content folder for markdown files.
 
-# Features
+It will render any markdown files it finds into html, using unified.
 
-## Type Fighter
+We can style this html using a theme:
 
-A clicker-esque typing game. 
+1. Create a file `themeName.theme.scss` in the scss directory.
+2. Create a file `fileName.themeName.md` in the content directory.
 
-### Todos
+The resulting html will now be styled according to the theme stylesheet.
 
-* Now that core elements are in, look at DOM structure for entire game.
-* Refactor any view updating code to better accomodate animations.
-* Refactor scss so that styling classes are no longer ids. This should slim down `game.theme.css`
-* Balancing - Letter is most powerful upgrades. Increasing line/word length is a penalty, not a buff. 
+You can specify an arbitrary directory structure:
 
-### New features
+content
+    index.md
+    /foo
+        bar.md
 
-* Email from boss / random event: Modal / pop up notification. When click, chance at a random upgrade with flavour text.
+which will be respected by the processor.
