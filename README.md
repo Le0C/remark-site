@@ -2,6 +2,14 @@
 
 unified processor to build html & css from markdown & scss.
 
+# installation
+
+1. npm install
+2. Add your markdown content to /content directory
+3. Define a build directory & other settings in the .env file _(optional)_
+4. npm run build
+5. View the resulting html in the browser.
+
 # usage
 
 The program will look in the content folder for markdown files.
