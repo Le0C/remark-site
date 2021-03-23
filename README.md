@@ -17,9 +17,10 @@ The resulting html will now be styled according to the theme stylesheet.
 
 You can specify an arbitrary directory structure:
 
+```
 content
     index.md
     /foo
         bar.md
-
+```
 which will be respected by the processor.
